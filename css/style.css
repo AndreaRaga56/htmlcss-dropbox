@@ -44,7 +44,7 @@ header{
 .lista-banner{
     list-style: none;
     display: flex;
-    justify-content: space space-between;
+    justify-content: space-between;
     align-items: center;
     gap: 15px;
     color: black;
@@ -84,7 +84,7 @@ header{
     z-index: 10;
     max-width: 1100px;
     width: 80%;
-    min-height: 580px;
+    min-height: 100px;
     position: relative;
     background-color: aquamarine;
 }
@@ -176,7 +176,7 @@ h1{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    min-height: 300px;
+    min-height: 100px;
 
     border: 2px dotted purple;
     background-color: lightgoldenrodyellow;
@@ -221,4 +221,36 @@ h1{
     width: calc(95%/3);
     background-color: deeppink;
     border: 1px dashed white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    min-height: 300px;
+}
+
+footer a{
+    color: white;
+}
+
+.footer-item{
+    width: calc(95%/5);
+    background-color: orange;
+}
+
+h4{
+    margin: 15px 0px;
+}
+
+.footer-item li{
+    margin-bottom: 10px;
+}
+
+.footer-item ul{
+    list-style: none;
+}
+
+footer hr{
+    width: 120px;
+    color: white;
 }
