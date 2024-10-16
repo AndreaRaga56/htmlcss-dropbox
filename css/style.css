@@ -59,6 +59,8 @@ header{
     background-color: #0061FE;
     padding: 0.4rem 1rem;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
     /* display: inline-block; */
     color: white;
 }
@@ -68,6 +70,7 @@ header{
     padding: 0.4rem 1rem;
     text-align: center;
     color: darkgrey;
+    text-decoration: none;
     display: inline-block;
 }
 
@@ -159,8 +162,7 @@ h1{
     border: 1px solid darkgray;
     border-radius: 10px;
     cursor: pointer;
-    z-index: 5;
-
+    display: block;
 }
 
 .circle.spuntato{
@@ -169,15 +171,15 @@ h1{
     position: absolute;
     bottom: 0;
     left: 0;
-    z-index: 3;
+    display: none;
 }
 
 .circle:checked{
-    z-index: 0;
+    display: block;
 }
 
 .circle.spuntato:checked{
-    z-index: 0;
+    display: block;
 }
 
 .cerchio{
