@@ -158,7 +158,6 @@ h1{
     background-color: white;
     width: 10px;
     height: 10px;
-    vertical-align: middle;
     border: 1px solid darkgray;
     border-radius: 10px;
     cursor: pointer;
@@ -174,13 +173,13 @@ h1{
     display: none;
 }
 
-.circle:checked{
+/* .circle:checked{
     display: block;
 }
 
 .circle.spuntato:checked{
     display: block;
-}
+} */
 
 .cerchio{
     display: inline-block;
